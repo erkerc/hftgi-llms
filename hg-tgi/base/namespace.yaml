@@ -2,3 +2,6 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: llm
+  labels:
+    modelmesh-enabled: 'true'
+    opendatahub.io/dashboard: 'true'
