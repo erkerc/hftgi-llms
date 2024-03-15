@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: llms-test
+  labels:
+    modelmesh-enabled: 'true'
+    opendatahub.io/dashboard: 'true'
