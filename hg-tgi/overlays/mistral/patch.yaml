@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: hf-tgi-server
 spec:
+  replicas: 2
   template:
     spec:
       containers:
