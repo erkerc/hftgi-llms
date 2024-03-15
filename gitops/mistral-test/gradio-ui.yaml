@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: ui/overlays/
+    path: ui/overlays-test
     repoURL: https://github.com/erkerc/hftgi-llms.git
     targetRevision: main
   syncPolicy:
