@@ -5,7 +5,7 @@ metadata:
   labels:
     app: hf-tgi-server
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: hf-tgi-server
