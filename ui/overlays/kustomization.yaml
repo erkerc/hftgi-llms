@@ -6,3 +6,5 @@ resources:
   - route.yaml
 
 namespace: llms
+patchesStrategicMerge:
+  - patch.yaml
