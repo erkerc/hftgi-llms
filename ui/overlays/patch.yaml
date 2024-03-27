@@ -1,0 +1,6 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hf-tgi-server
+spec:
+  replicas: 1
