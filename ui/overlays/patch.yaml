@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hf-tgi-server
+  name: gradio-hftgi-memory
 spec:
   replicas: 1
