@@ -5,7 +5,7 @@ metadata:
   labels:
     app: gradio-hftgi-memory
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: gradio-hftgi-memory
